@@ -17,6 +17,21 @@ function display(el){
 
 }
 
+function test(){
+var el1 = document.getElementById("navi");
+el1.classList.toggle('active-flex');
+}
+
+function change(){
+
+  var el = document.getElementById("top-bar");
+  var el1 = document.getElementById("navi");
+
+  el.classList.toggle('change');
+  setTimeout(test, 300);
+  
+}
+
 function displayTrans(el){
 	if (el.style.maxHeight){
       el.style.maxHeight = null;
