@@ -1,4 +1,8 @@
+$bodybackgroundcolor: #F1F0E2;
+$bodycolor: #222;
 $firstcolor: #466A73;
+$btnprimarybackground: #3E4E59;
+$btndanger: #F25652;
 
 
 @import'sass/reset';
@@ -6,4 +10,5 @@ $firstcolor: #466A73;
 @import'sass/base';
 @import'sass/grid';
 @import'sass/modules/navbars';
+@import'sass/modules/buttons';
 @import'sass/utilities';
