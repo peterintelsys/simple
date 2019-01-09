@@ -122,11 +122,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB;
+  color: #1859BD;
 }
 
 a:hover {
-  color: #0FA0CE;
+  color: #1859BD;
 }
 
 /* Forms
@@ -240,8 +240,8 @@ code {
   margin: 0 0.2rem;
   font-size: 90%;
   white-space: nowrap;
-  background: #F1F1F1;
-  border: 1px solid #E1E1E1;
+  background: #C3C4C9;
+  border: 1px solid #C3C4C9;
   border-radius: 4px;
 }
 
@@ -338,6 +338,10 @@ form {
   .grid-responsive {
     display: grid;
   }
+
+  .order-small-1 {
+    grid-row: 2/2;
+  }
 }
 .main-nav {
   display: flex;
@@ -364,8 +368,8 @@ form {
 
 /* Rotate first bar */
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-8px, 4px);
-  transform: rotate(-45deg) translate(-8px, 4px);
+  -webkit-transform: rotate(-45deg) translate(-7px, 4px);
+  transform: rotate(-45deg) translate(-7px, 4px);
 }
 
 /* Fade out the second bar */
@@ -375,8 +379,8 @@ form {
 
 /* Rotate last bar */
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-7px, -7px);
-  transform: rotate(45deg) translate(-7px, -7px);
+  -webkit-transform: rotate(45deg) translate(-6px, -6px);
+  transform: rotate(45deg) translate(-6px, -6px);
 }
 
 /* Buttons
@@ -387,6 +391,7 @@ input[type=submit],
 input[type=reset],
 input[type=button] {
   display: inline-block;
+  box-sizing: content-box;
   height: 38px;
   padding: 0 30px;
   color: #555;

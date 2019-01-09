@@ -44,9 +44,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: $links; }
 a:hover {
-  color: #0FA0CE; }
+  color: $links; }
 
 
 /* Forms
@@ -137,8 +137,8 @@ code {
   margin: 0 .2rem;
   font-size: 90%;
   white-space: nowrap;
-  background: #F1F1F1;
-  border: 1px solid #E1E1E1;
+  background: #C3C4C9;
+  border: 1px solid #C3C4C9;
   border-radius: 4px; }
 pre > code {
   display: block;
