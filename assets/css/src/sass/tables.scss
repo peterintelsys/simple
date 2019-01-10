@@ -1,0 +1,40 @@
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+tr:hover, tr:focus {
+	background-color: $tablehover;
+	cursor: pointer;
+}
+
+th {
+	font-size: 1.5rem;
+	font-weight: 600;
+	letter-spacing: 2px;
+	border-bottom: 1px solid $bodycolor;
+}
+
+td {
+	border-bottom: 1px solid $bodycolorlight;
+}
+
+th a, td a {
+	color:$bodycolor;
+}
+
+th a:hover, td a:hover {
+	color:$bodycolor;
+}
+
+th,
+td {
+  padding: 6px 15px;
+  text-align: left; }
+th:first-child,
+td:first-child {
+  padding-left: 5px; }
+th:last-child,
+td:last-child {
+  padding-right: 5px; }
+
+.table-full {
+	width:100%;
+}

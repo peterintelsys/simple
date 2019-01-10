@@ -75,14 +75,10 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <div>
 
-<h2>Innehåll</h2>
-
-<ul>
-	<li><a href="#text">Text</a></li>
-	<li><a href="#buttons">Buttons</a></li>
-</ul>
+<?php include('sidebar.php') ?>
 
 </div>
+
 </div>
 
 <script type="text/javascript" src="assets/js/simple.js"></script>

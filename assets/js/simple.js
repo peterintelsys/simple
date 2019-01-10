@@ -1,11 +1,12 @@
 function showid(el){
 
-	var elem = document.getElementById(el);
+  var elem = document.getElementById(el);
 
 	elem.classList.toggle('active');
 
 	//display(elem);
 }
+
 
 function display(el){
 
@@ -56,3 +57,6 @@ for (var i = 0; i < accordianBtn.length; i++) {
 
    });
 }
+
+
+

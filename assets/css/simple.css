@@ -123,87 +123,12 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   color: #1859BD;
+  text-decoration: none;
 }
 
 a:hover {
   color: #1859BD;
-}
-
-/* Forms
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-input[type=email],
-input[type=number],
-input[type=search],
-input[type=text],
-input[type=tel],
-input[type=url],
-input[type=password],
-textarea,
-select {
-  height: 38px;
-  padding: 6px 10px;
-  /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
-  border: 1px solid #D1D1D1;
-  border-radius: 4px;
-  box-shadow: none;
-  box-sizing: border-box;
-}
-
-/* Removes awkward default styles on some inputs for iOS */
-input[type=email],
-input[type=number],
-input[type=search],
-input[type=text],
-input[type=tel],
-input[type=url],
-input[type=password],
-textarea {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-textarea {
-  min-height: 65px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-
-input[type=email]:focus,
-input[type=number]:focus,
-input[type=search]:focus,
-input[type=text]:focus,
-input[type=tel]:focus,
-input[type=url]:focus,
-input[type=password]:focus,
-textarea:focus,
-select:focus {
-  border: 1px solid #33C3F0;
-  outline: 0;
-}
-
-label,
-legend {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 600;
-}
-
-fieldset {
-  padding: 0;
-  border-width: 0;
-}
-
-input[type=checkbox],
-input[type=radio] {
-  display: inline;
-}
-
-label > .label-body {
-  display: inline-block;
-  margin-left: 0.5rem;
-  font-weight: normal;
+  text-decoration: none;
 }
 
 /* Lists
@@ -251,25 +176,6 @@ pre > code {
   white-space: pre;
 }
 
-/* Tables
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-th,
-td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #E1E1E1;
-}
-
-th:first-child,
-td:first-child {
-  padding-left: 0;
-}
-
-th:last-child,
-td:last-child {
-  padding-right: 0;
-}
-
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button,
@@ -294,6 +200,134 @@ ul,
 ol,
 form {
   margin-bottom: 2.5rem;
+}
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type=email],
+input[type=number],
+input[type=search],
+input[type=text],
+input[type=tel],
+input[type=url],
+input[type=password],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px;
+  /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: transparent;
+  border: 1px solid #466A73;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 100%;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+/* Removes awkward default styles on some inputs for iOS */
+input[type=email],
+input[type=number],
+input[type=search],
+input[type=text],
+input[type=tel],
+input[type=url],
+input[type=password],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=search]:focus,
+input[type=text]:focus,
+input[type=tel]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #466A73;
+  outline: 0;
+}
+
+label,
+legend {
+  display: block;
+  margin: 0 0 0.2rem 0.2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+fieldset {
+  padding: 0;
+  border-width: 0;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  display: inline;
+}
+
+label > .label-body {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-weight: normal;
+}
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+tr:hover, tr:focus {
+  background-color: #D8E0E0;
+  cursor: pointer;
+}
+
+th {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #222;
+}
+
+td {
+  border-bottom: 1px solid #7B7F7F;
+}
+
+th a, td a {
+  color: #222;
+}
+
+th a:hover, td a:hover {
+  color: #222;
+}
+
+th,
+td {
+  padding: 6px 15px;
+  text-align: left;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 5px;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 5px;
+}
+
+.table-full {
+  width: 100%;
 }
 
 /* Grid
@@ -383,6 +417,51 @@ form {
   transform: rotate(45deg) translate(-6px, -6px);
 }
 
+.navi {
+  display: inline-block;
+}
+
+.navi a {
+  padding: 6px;
+  color: #222;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 6px;
+}
+
+.drop-btn {
+  cursor: pointer;
+}
+
+.drop-content {
+  display: none;
+  position: absolute;
+  margin-top: 6px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.drop-content a {
+  display: block;
+  padding: 6px;
+  min-width: 160px;
+}
+
+.drop-content a:hover {
+  background-color: #D8E0E0;
+}
+
+.drop-left {
+  left: 0;
+}
+
+.drop-right {
+  right: 0;
+}
+
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,
@@ -391,9 +470,8 @@ input[type=submit],
 input[type=reset],
 input[type=button] {
   display: inline-block;
-  box-sizing: content-box;
   height: 38px;
-  padding: 0 30px;
+  padding: 0 30px !important;
   color: #555;
   text-align: center;
   font-size: 11px;

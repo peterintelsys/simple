@@ -1,14 +1,18 @@
 $bodybackgroundcolor: #F1F0E2;
 $bodycolor: #222;
+$bodycolorlight: #7B7F7F;
 $firstcolor: #466A73;
 $btnprimarybackground: #3E4E59;
 $btndanger: #F25652;
 $links: #1859BD;
+$tablehover:#D8E0E0;
 
 
 @import'sass/reset';
 
 @import'sass/base';
+@import'sass/forms';
+@import'sass/tables';
 @import'sass/grid';
 @import'sass/modules/navbars';
 @import'sass/modules/buttons';

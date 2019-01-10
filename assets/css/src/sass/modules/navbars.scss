@@ -37,3 +37,48 @@
   -webkit-transform: rotate(45deg) translate(-6px, -6px) ;
   transform: rotate(45deg) translate(-6px, -6px) ;
 }
+
+.navi {
+  display: inline-block;
+}
+
+.navi a {
+  padding:6px;
+  color: $bodycolor; 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding:6px;
+}
+
+.drop-btn {
+  cursor: pointer;
+}
+
+.drop-content {
+  display: none;
+  position: absolute;
+  margin-top: 6px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.drop-content a {
+  display: block;
+  padding:6px;
+  min-width: 160px;
+}
+
+.drop-content a:hover {
+  background-color: $tablehover;
+}
+
+.drop-left {
+  left:0;
+}
+
+.drop-right {
+  right:0;
+}
