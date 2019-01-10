@@ -18,7 +18,7 @@
 
 <div class="container">
 	
-<div style="display: grid; justify-content: center; margin-top:50px;"><img style="width: 400%; height: auto;" src="assets/img/feather.svg">
+<div style="display: flex; justify-content: center; margin-top:50px;"><img style="width: 400%; height: auto;" src="assets/img/feather.svg">
 
 
 
@@ -28,7 +28,8 @@
 
 <h1 style="text-align: center;">Simple a CSS-framework</h1>
 
-<p style="display: flex; justify-content: space-around; "><a href="">Html-template</a> <a href="#css">CSS-file</a></p>
+<p style="display: flex; justify-content: space-around; "><a href="">Html-template</a><a href="#css">CSS-file</a>
+<a href="#js">JS-file</a></p>
 
 <h4>Html-template</h4>
 <pre><code><xmp>
@@ -67,10 +68,16 @@
 </body>
 </html>
 </xmp></code></pre>
-
+<hr>
 <h4 id="css">CSS-file</h4><a href="">Tillbaka</a>
 <pre><code><xmp>
 <?php include('assets/css/simple.css')?>
+</xmp></code></pre>
+<a href="">Tillbaka</a>
+<hr>
+<h4 id="js">JS-file</h4><a href="">Tillbaka</a>
+<pre><code><xmp>
+<?php include('assets/js/simple.js')?>
 </xmp></code></pre>
 <a href="">Tillbaka</a>
 
