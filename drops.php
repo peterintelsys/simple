@@ -16,12 +16,45 @@
 
 <?php include('main-nav.php')?>
 
+<div id="modal1" class="modal">
+  
+  <div class="modal-content">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+
+</div>
+
+<div id="modal2" class="modal">
+  
+  <div class="modal-content">
+    <h2>Modal 2</h2>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+
+</div>
+
+
 <div class="container">
 	
 <div class="grid-responsive grid-2-1">
 
 <div>
 <h2>Dropdowns</h2>
+
+<p>
+  <button onclick="openModal('modal1')">Open modal</button>
+  <button onclick="openModal('modal2')">Open modal 2</button>
+</p>
 <p>
 
 
@@ -33,11 +66,12 @@
 
 <div class="dropdown">
 
-  <div class="drop-btn">Klicka</div>
-  <div id="drop" class="drop-content drop-left">
-    <a href="">Test</a>
-    <a href="">Hej</a>
+  <a href="#" class="drop-btn">Klicka</a>
+  <div class="drop-content drop-left">
+    <a href="forms.php">Forms</a>
+    <a href="tables.php">Tables</a>
     <a href="">Då</a>
+    <a href="forms.php">Ny</a>
   </div>
 
 </div>
@@ -47,8 +81,8 @@
 
 <div class="dropdown">
 
-  <div class="drop-btn" onclick="showid('drop1')">Klicka</div>
-  <div id="drop1" class="drop-content drop-right">
+  <a href="#" class="drop-btn">Klicka</a>
+  <div class="drop-content drop-right">
     <a href="">Test</a>
     <a href="">Hej</a>
     <a href="">Då</a>
@@ -68,23 +102,29 @@
 <pre><code><xmp>
 <div class="navi">
 
+
+<a href="">Hej</a>
+<a href="">Test</a>
+
 <div class="dropdown">
 
-  <div class="drop-btn" onclick="showid('drop')">Klicka</div>
-  <div id="drop" class="drop-content">
+  <a href="#" class="drop-btn">Klicka</a>
+  <div class="drop-content drop-left">
     <a href="">Test</a>
     <a href="">Hej</a>
     <a href="">Då</a>
+    <a href="">Ny</a>
   </div>
 
 </div>
 
 <a href="">Hej</a>
+<a href="">Test</a>
 
 <div class="dropdown">
 
-  <div class="drop-btn" onclick="showid('drop1')">Klicka</div>
-  <div id="drop1" class="drop-content">
+  <a href="#" class="drop-btn">Klicka</a>
+  <div class="drop-content drop-right">
     <a href="">Test</a>
     <a href="">Hej</a>
     <a href="">Då</a>
@@ -92,8 +132,11 @@
 
 </div>
 
-</div>
+
+</div><!-- End navi -->
 </xmp></code></pre>
+
+
 
 </p>
 

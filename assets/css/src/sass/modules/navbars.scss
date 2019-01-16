@@ -43,14 +43,14 @@
 }
 
 .navi a {
+  display: inline-block;
   padding:6px;
-  color: $bodycolor; 
+  color: $bodycolor;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
-  padding:6px;
 }
 
 .drop-btn {
@@ -60,19 +60,27 @@
 .drop-content {
   display: none;
   position: absolute;
-  margin-top: 6px;
   background-color: white;
   border-radius: 6px;
 }
 
 .drop-content a {
   display: block;
-  padding:6px;
+  font-size: 1.4rem;
+  padding:6px 16px;
   min-width: 160px;
 }
 
 .drop-content a:hover {
   background-color: $tablehover;
+}
+
+.drop-content a:not(:last-child){
+  border-bottom:1px solid $tablehover;
+}
+
+.drop-list {
+  
 }
 
 .drop-left {
